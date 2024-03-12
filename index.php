@@ -71,7 +71,7 @@
                             </div>
                             <a href="forgot.php" class="text-decoration-none">Forgot Password?</a>
                         </div>
-                        <button class="btn col-12 custom-bg shadow-none text-dark fw-bold" name='login'type='submit'>LOGIN</button>
+                        <button class="btn col-12 custom-bg shadow-none text-dark fw-bold" name='login'type='submit'><a href="login.php" class="text-decoration-none text-dark">LOGIN</a></button>
                         <div class="mt-3">
                             <p class="fw-medium">OR</p>
                             <a href="register.php" class="text-decoration-none fw-medium"><p class="">Register</p></a>
