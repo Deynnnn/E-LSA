@@ -37,7 +37,7 @@
                             <input type="number" name="num6" class="form-control shadow-none fs-4 text-center fw-bold" id="nameInput" required>
                         </div>
                         <div class="text-center ps-0">
-                            <button class="btn col-12 custom-bg shadow-none text-dark fw-bold text-center" name='register'type='submit'>CONFIRM</button>
+                            <button class="btn col-12 custom-bg shadow-none text-dark fw-bold text-center" name='register'type='submit'>VERIFY</button>
                         </div>
                         <div class="mt-3">
                             <p class="text-light fw-medium">Check your email to verify your code sent by ATI. <br> <a href="index.php" class="text-decoration-none ">Login</a></p>
