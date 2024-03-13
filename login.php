@@ -1,3 +1,8 @@
+<?php 
+    require('admin/includes/dbConfig.php');
+    require('admin/includes/essentials.php');
+    userLogin();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,45 +10,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php require("includes/links.php"); ?>
     <title>E-LSA - Log In</title>
-    <style>
-        .login-form{
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 400px;
-        }
-        .lsa-logo{
-            width: 250px;
-        }
-        .custom-bg{
-            background-color:  rgb(128,242,58);
-            border: 1px solid  rgb(128,242,58);
-        }
-        .custom-bg:hover{
-            background-color:  rgb(128,242,58,.85);
-            border: 1px solid  rgb(128,242,58);
-        }
-        .custom-alert{
-            position: fixed;
-            top: 25px;
-            right: 25px;
-        }
-        .justify{
-            text-align: justify;
-        }
-        .course{
-        border: 1px #acacac solid;
-        border-radius: 50%;
-        color: rgb(128,242,58);
-        padding: 20px 26px;
-        font-size: 40px;
-        }
-        .course:hover{
-            background-color: rgb(128,242,58, .13);
-            transition: all .15s;
-        }
-    </style>
 </head>
 <body>
     <div class="">
@@ -79,8 +45,9 @@
 
         </div>
     </div>
-    <?php require("includes/footer.php");?>
+    <div class="loader"></div>
+    <script src="./js/loader.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
+    <?php require("./includes/footer.php"); ?>
 </body>
 </html>

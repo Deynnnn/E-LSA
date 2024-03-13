@@ -21,23 +21,31 @@
             </ul>
             <div class="d-flex">
                 <?php
-                    // if(isset($_SESSION['login']) && $_SESSION['login']==true){
+                    if(isset($_SESSION['login']) && $_SESSION['login']==true){
                         echo<<<data
                             <div class="btn-group">
                                 <button type="button" class="btn btn-outline-dark shadow_none dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
                                     <i class="bi bi-person-badge-fill fs-5"></i>
-                                    User Name
+                                    $_SESSION[uFName] $_SESSION[uLName]
                                 </button>
                                 <ul class="dropdown-menu dropdown-menu-lg-end">
                                     <li><a class="dropdown-item" href="profile.php">Profile</a></li>
-                                    <li><a class="dropdown-item" href="index.php">Logout</a></li>
+                                    <li><a class="dropdown-item" href="logout.php">Logout</a></li>
                                 </ul>
                             </div>
                         data;
-                    // }
+                    }else{
+                        echo<<<data
+                            <button type="button" class="btn btn-outline-dark shadow-none me-lg-3 me-2" data-bs-toggle="modal" data-bs-target="#loginModal">
+                                Login
+                            </button>
+                            <button type="button" class="btn btn-outline-dark shadow-none" data-bs-toggle="modal" data-bs-target="#registerModal">
+                                Register
+                            </button>
+                        data;
+                    }
                 ?>
             </div>
         </div>
     </div>
 </nav>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

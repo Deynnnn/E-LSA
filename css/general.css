@@ -1,0 +1,92 @@
+.login-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+.lsa-logo{
+    width: 250px;
+}
+.custom-bg{
+    background-color:  rgb(128,242,58);
+    border: 1px solid  rgb(128,242,58);
+}
+.custom-bg:hover{
+    background-color:  rgb(128,242,58,.85);
+    border: 1px solid  rgb(128,242,58);
+}
+.custom-alert{
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    z-index: 11;
+}
+.custom-bg-img{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+.custom-container::before{
+    content: '';
+    background-color: #ddd;
+    opacity: 1.0;
+}
+.course{
+    border: 1px #acacac solid;
+    border-radius: 50%;
+    color: rgb(128,242,58);
+    padding: 20px 26px;
+    font-size: 40px;
+}
+.course:hover{
+    background-color: rgb(128,242,58, .13);
+    transition: all .15s;
+}
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f9fb;
+    transition: opacity 0.75s, visibility 0.75s;
+}
+.loader-hidden{
+    opacity: 0;
+    visibility: hidden;
+}
+.loader::after{
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #dddddd;
+    border-radius: 50%;
+    border-top-color: rgb(128,242,58);
+    animation: loading 0.75s ease infinite;
+}
+@keyframes loading{
+    from{
+        transform: rotate(0turn);
+    }to{
+        transform: rotate(1turn);
+    }
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+input[type="number"] {
+-moz-appearance: textfield; /* Firefox appearance */
+appearance: textfield; /* Standard appearance */
+width: 50px; /* Set width as needed */
+padding: 5px; /* Set padding as needed */
+}
