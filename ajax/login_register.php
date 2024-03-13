@@ -16,15 +16,15 @@
         $mail = new PHPMailer;
 
         $mail->isSMTP();
-        $mail->Host='smtp.gmail.com';
-        $mail->Port=587;
+        $mail->Host='smtp_provider';
+        $mail->Port=smtp_port;
         $mail->SMTPAuth=true;
         $mail->SMTPSecure='tls';
 
-        $mail->Username='deyndeyn727@gmail.com';
-        $mail->Password='zwkkjcfbacijseku';
+        $mail->Username='your_smtp_email';
+        $mail->Password='your_smtp_password';
 
-        $mail->setFrom('deyndeyn727@gmail.com', $subject);
+        $mail->setFrom('your_smtp_email', $subject);
         $mail->addAddress($email);
 
         $mail->isHTML(true);
