@@ -23,7 +23,7 @@
         <div class="row ">
             <div class="text-center mt-2">
                 <h1>Coming soon🚀</h1>
-                <a href="index.php"><img src="images/cs.png" alt="" class="" width='400'></a>
+                <a href="#"><img src="images/cs.png" alt="" class="" width='400'></a>
             </div>
     </div>
 </body>
