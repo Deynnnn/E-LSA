@@ -26,8 +26,10 @@
                     <h3 class="fw-bold">COURSES</h3>
                     <div class="row">
                         <div class="mt-3 text-center col-6">
-                            <h2><i class="fa-solid fa-book course"></i></h2>
-                            <p class="fw-bold fs-5">LSA I</p>
+                            <a href="lsaI.php" class="text-decoration-none text-dark">
+                                <h2><i class="fa-solid fa-book course"></i></h2>
+                                <p class="fw-bold fs-5">LSA I</p>
+                            </a>
                         </div>
                         <div class="mt-3 text-center col-6">
                             <h2><i class="fa-solid fa-book course"></i></h2>
