@@ -10,9 +10,6 @@
                 <a class="nav-link hov" aria-current="page" href="login.php">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link hov" href="courses.php">Courses</a>
-                </li>
-                <li class="nav-item">
                 <a class="nav-link hov" href="about.php">About Us</a>
                 </li>
                 <li class="nav-item">
