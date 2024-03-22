@@ -1,4 +1,3 @@
-profile.php
 <?php 
     require('admin/includes/dbConfig.php');
     require('admin/includes/essentials.php');
