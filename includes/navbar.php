@@ -46,3 +46,20 @@
         </div>
     </div>
 </nav>
+<!-- Data Privacy Modal -->
+<div class="modal fade" id="dataprivacyModal" tabindex="1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"><i class="bi bi-shield-lock-fill"></i> Data Privacy Policy</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p class="">In compliance with the <b>Data Privacy Act (DPA) of 2012</b>, and its <b>Implementing Rules and Regulations (IRR)</b> effective since September 8, 2016, I allow The Dimaano Dental Clinic to use the data I provided in this form for the processing of my appointment scheduling in the Clinic and other reports needed by the clinic in relation to its appointment and scheduling processes. Additionally, I give my consent and allow Dimaano Dental Clinic to share my information to the other clinic stakeholders.</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#registerModal">Close</button>
+        </div>
+        </div>
+    </div>
+</div>

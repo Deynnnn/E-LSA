@@ -112,6 +112,12 @@
                             <label for="file" class="form-label">Select File</label>
                             <input type="file" class="form-control" name="file" id="file">
                         </div>
+                        <div class="form-check mb-3">
+                            <input class="form-check-input shadow-none" type="checkbox" value="remember-me" id="flexCheckDefault" required>
+                            <label class="form-check-label" for="flexCheckDefault">
+                                I Agree to <a class="text-decoration-none fw-medium" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#dataprivacyModal">Data Privacy Policy</a>
+                            </label>
+                            </div>
                         <button type="submit" class="btn btn-primary">Upload File</button>
                     </form>
                 </div>
