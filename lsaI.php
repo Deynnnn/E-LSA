@@ -115,7 +115,7 @@
                         <div class="form-check mb-3">
                             <input class="form-check-input shadow-none" type="checkbox" value="remember-me" id="flexCheckDefault" required>
                             <label class="form-check-label" for="flexCheckDefault">
-                                I Agree to <a class="text-decoration-none fw-medium" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#dataprivacyModal">Data Privacy Policy</a>
+                                I Agree to <a class="text-decoration-none fw-medium" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#dataprivacyModal">Terms and Conditions</a>
                             </label>
                             </div>
                         <button type="submit" class="btn btn-primary">Upload File</button>
@@ -130,7 +130,7 @@
     <!-- Modal content -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <img src="briefer1.png" alt="Larger Image">
+        <img src="images/briefer1.png" alt="Larger Image">
     </div>
     </div>
 
@@ -169,6 +169,6 @@
     <div class="loader"></div>
     <script src="./js/loader.js"></script>
     <script src="./js/upload.js"></script>
-    <?php require("./includes/footer.php"); ?>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
