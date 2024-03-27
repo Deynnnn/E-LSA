@@ -28,6 +28,19 @@
                 margin-top: 60px;
             }
         }
+        .custom-bg{
+            background-color:  rgb(128,242,58);
+            border: 1px solid  rgb(128,242,58);
+        }
+        .custom-bg:hover{
+            background-color:  rgb(128,242,58,.85);
+            border: 1px solid  rgb(128,242,58)
+        }
+        .custom-alert{
+            position: fixed;
+            top: 80px;
+            right: 25px;
+        }
     </style>
 </head>
 <body class="bg-white">
