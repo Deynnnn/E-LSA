@@ -38,7 +38,7 @@
         }
         .custom-alert{
             position: fixed;
-            top: 75px;
+            top: 80px;
             right: 25px;
         }
     </style>
@@ -104,7 +104,7 @@
                 <div class="card-body">
                 
                     <div class="text-end mb-4">
-                        <input type="text" oninput="search_user(this.value)" class="form-control shadow-none w-25 ms-auto" placeholder="Type to SEARCH">
+                        <input type="text" oninput="search_user(this.value)" class="form-control shadow-none w-25 ms-auto" placeholder="Search user here...">
                     </div>
                     <div class="table-responsive">
                         <table class="table table-hover text-center" style="min-width: 1300px;">
