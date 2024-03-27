@@ -30,6 +30,26 @@
                     </li>
                     <hr>
                     <li class="nav-item">
+                        <p class="fw-lighter">COURSES</p>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark d-flex align-items-center fw-medium" href="lsa1.php">
+                        <span class="material-symbols-outlined">
+                            library_books
+                        </span>
+                        LSA I
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark d-flex align-items-center fw-medium" href="lsa2.php">
+                        <span class="material-symbols-outlined">
+                            library_books
+                        </span>
+                        LSA II
+                        </a>
+                    </li>
+                    <hr>
+                    <li class="nav-item">
                         <p class="fw-lighter">SETTINGS</p>
                     </li>
                     <li class="nav-item">
